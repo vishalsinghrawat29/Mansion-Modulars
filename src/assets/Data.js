@@ -1,6 +1,3 @@
-import { image } from '@cloudinary/url-gen/qualifiers/source'
-import Projects from '../pages/Projects'
-
 export const MansionModularsLogo = {
   title: 'Mansion Modulars',
   logo: 'https://res.cloudinary.com/dpghwxqij/image/upload/v1740230333/MansionModulars-Logo_zvexsg.png',
