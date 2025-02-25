@@ -1,0 +1,26 @@
+.section-header {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1.705%;
+}
+
+.section-header h2 {
+  padding-bottom: 0.875%;
+}
+@media (max-width: 1000px) {
+  .section-header {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .section-header {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+
+  .section-header h2 {
+    padding-bottom: 8px;
+  }
+}
