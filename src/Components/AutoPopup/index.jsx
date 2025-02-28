@@ -9,7 +9,7 @@ const AutoPopup = () => {
 
   useEffect(() => {
     setShowPopup(false);
-    const timer = setTimeout(() => setShowPopup(true), 2000);
+    const timer = setTimeout(() => setShowPopup(true), 12000);
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
