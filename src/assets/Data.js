@@ -145,7 +145,7 @@ export const HomePage = {
     desktopImage:
       'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_958/v1740495583/Home-Contact_vrhq74.png',
     mobileImage:
-      'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_500/e_upscale/v1740495583/Home-Contact_vrhq74.png',
+      'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_700/v1740495583/Home-Contact_vrhq74.png',
   },
 };
 
