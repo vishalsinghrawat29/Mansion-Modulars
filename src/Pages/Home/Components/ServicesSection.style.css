@@ -1,17 +1,12 @@
-/* Services Section */
 .home-services {
   padding: 2.131% 0;
 }
-
-/* Services List Layout */
 .home-services-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
 }
-
-/* Service Card Styling */
 .home-service-card {
   display: flex;
   align-items: flex-start;
@@ -20,30 +15,23 @@
   background-color: var(--secondary-background-color);
   padding: 2.273%;
 }
-
-/* Service Image */
 .home-service-image {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-basis: 20%;
 }
-
 .home-service-image img {
   width: 100%;
 }
-
-/* Service Info */
 .home-service-info {
   flex-basis: 80%;
   padding-left: 8.929%;
 }
-
 .home-service-info h3 {
   padding-bottom: 7.067%;
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
   .home-service-card {
     width: 32%;
@@ -55,11 +43,9 @@
     justify-content: center;
     gap: 4%;
   }
-
   .home-service-card {
     width: 48%;
   }
-
   .home-service-card:last-of-type {
     margin-top: 3.8%;
     justify-content: center;
@@ -70,35 +56,28 @@
   .home-services {
     padding: 20px 0;
   }
-
   .home-services-list .home-service-card {
     width: 100%;
     margin: 12px 0;
     padding: 16px;
   }
-
   .home-services-list .home-service-card:first-of-type {
     margin-top: 0;
   }
-
   .home-services-list .home-service-card:last-of-type {
     margin-bottom: 0;
   }
-
   .home-services-list .home-service-card {
     justify-content: flex-start;
   }
-
   .home-service-image {
     flex-basis: 18%;
     max-width: 56px;
   }
-
   .home-service-info {
     flex-basis: 82%;
     padding-left: 18px;
   }
-
   .home-service-info h3 {
     padding-bottom: 8px;
   }

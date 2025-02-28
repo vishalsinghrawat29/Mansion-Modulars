@@ -1,12 +1,9 @@
-/* Projects */
 .home-projects {
   padding: 2.131% 0;
 }
-
 .projects-slider {
   padding: 0.569% 0 0 0;
 }
-
 .projects-slider .slick-list {
   padding: 0 20% 0 0 !important;
 }
@@ -22,7 +19,6 @@
   justify-content: center;
   padding-top: 2.841%;
 }
-
 .projects-cta {
   background-color: var(--tertiary-color);
   color: var(--text-secondary-color);
@@ -34,7 +30,6 @@
   margin: auto;
   display: inline-block;
 }
-
 .projects-cta:hover {
   background-color: transparent;
   color: var(--tertiary-color);
@@ -80,7 +75,6 @@
   }
 }
 
-/* Slider Dots */
 ul.slick-dots {
   position: static;
   padding-top: 16px;

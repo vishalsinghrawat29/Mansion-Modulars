@@ -1,0 +1,77 @@
+.Values-section {
+  padding: 2.131% 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Values-content {
+  flex-basis: 65%;
+  padding-right: 4.262%;
+}
+.Values-section-image {
+  flex-basis: 35%;
+}
+.Values-section-image img {
+  height: 100% !important;
+  display: block;
+  object-fit: cover;
+}
+.value-header {
+  padding-bottom: 3.742%;
+}
+.value-header h2 {
+  padding-bottom: 0.936%;
+}
+.value-info-header {
+  padding-bottom: 1.404%;
+}
+.value-card {
+  padding: 1.17% 0;
+  width: 55%;
+}
+.value-card p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 1250px) {
+  .value-card {
+    width: 75%;
+  }
+}
+@media (max-width: 1000px) {
+  .value-card {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Values-section {
+    padding: 20px 0;
+    flex-direction: column-reverse;
+  }
+  .Values-content {
+    flex-basis: 100%;
+    padding-right: 0;
+  }
+  .Values-section-image {
+    flex-basis: 100%;
+  }
+  .value-header {
+    padding: 20px 0;
+  }
+  .value-header h2 {
+    padding-bottom: 8px;
+  }
+  .value-info-header {
+    padding-bottom: 12px;
+  }
+  .value-card {
+    padding: 4px 0;
+  }
+  .value-card:last-of-type {
+    padding-bottom: 0;
+  }
+  .value-card:first-of-type {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.left-image-service-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.131% 0;
+}
+.left-image-service-container .image-wrapper img {
+  padding: 0 16px 16px 0;
+}
+.left-image-service-container .image-wrapper .image-frame::after {
+  left: 16px;
+  bottom: 0;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+}
+
+@media (max-width: 768px) {
+  .left-image-service-container {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+}

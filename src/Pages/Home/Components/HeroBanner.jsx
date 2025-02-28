@@ -1,9 +1,9 @@
-import React from 'react'
-import HeroSection from '../../../Components/HeroSection'
-import { HomePage } from '../../../assets/Data'
+import React from 'react';
+import HeroSection from '../../../Components/HeroSection';
+import { HomePage } from '../../../assets/Data';
 
 const HeroBanner = () => {
-  const { desktopImage, mobileImage, altText } = HomePage.HeadersImage
+  const { desktopImage, mobileImage, altText } = HomePage.HeadersImage;
   return (
     <section className='hero-banner'>
       <HeroSection
@@ -15,7 +15,7 @@ const HeroBanner = () => {
         ctaText='📅 Get a Free Design Consultation'
       />
     </section>
-  )
-}
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;

@@ -1,11 +1,11 @@
-import React from 'react'
-import Slider from 'react-slick'
-import SectionHeader from '../../../Components/SectionHeader'
-import ResponsiveImg from '../../../Components/ResponsiveImg'
-import { HomePage } from '../../../assets/Data'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import './ProjectsSection.style.css'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import SectionHeader from '../../../Components/SectionHeader';
+import ResponsiveImg from '../../../Components/ResponsiveImg';
+import { HomePage } from '../../../assets/Data';
+import './ProjectsSection.style.css';
 
 const ProjectsSection = () => {
   const settings = {
@@ -18,8 +18,6 @@ const ProjectsSection = () => {
     centerMode: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    adaptiveHeight: true,
-
     responsive: [
       {
         breakpoint: 950,
@@ -35,7 +33,7 @@ const ProjectsSection = () => {
         },
       },
     ],
-  }
+  };
 
   return (
     <section className='home-projects'>
@@ -57,12 +55,12 @@ const ProjectsSection = () => {
         </Slider>
       </div>
       <div className='projects-cta-container'>
-        <a href='#' className='projects-cta'>
+        <a href='/projects' className='projects-cta'>
           View All Projects
         </a>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

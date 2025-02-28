@@ -1,0 +1,107 @@
+.project-card {
+  padding: 2.131% 0;
+}
+.project-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 0 1.137% 0;
+}
+.project-header h2 {
+  flex-basis: 60%;
+  text-align: left;
+}
+.project-header h5 {
+  flex-basis: 40%;
+  text-align: right;
+}
+.project-content {
+  position: relative;
+}
+.project-cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 12/5;
+}
+.project-description {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  padding: 10% 30% 2.273% 2.273%;
+  background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.9));
+}
+.project-description p {
+  color: var(--text-secondary-color);
+}
+.preview-btn {
+  border: 1px solid var(--background-color);
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease-in-out;
+  padding: 0.839% 4.195%;
+  margin-top: 1.678%;
+}
+.preview-btn:hover {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+  color: var(--background-color);
+}
+.mobile-project-header {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .project-cover img {
+    aspect-ratio: 2/1;
+  }
+  .project-description {
+    padding: 4% 2.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 20px 0;
+  }
+  .project-content {
+    padding: 8px;
+    background-color: vaR(--secondary-background-color);
+  }
+  .project-cover img {
+    aspect-ratio: 16/9;
+  }
+  .project-description {
+    position: static;
+    padding: 0;
+    background: transparent;
+  }
+  .project-description p {
+    color: var(--text-color);
+  }
+  .project-header {
+    display: none;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 8px 0;
+  }
+  .project-header h2,
+  .project-header h5 {
+    text-align: left;
+    flex-basis: 100%;
+  }
+  .mobile-project-header {
+    display: flex;
+  }
+  .preview-btn {
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--tertiary-color);
+    color: var(--text-secondary-color);
+    transition: background-color 0.3s ease-in-out;
+    padding: 6px 32px;
+    margin-top: 12px;
+  }
+  .preview-btn:hover {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    color: var(--tertiary-color);
+  }
+}

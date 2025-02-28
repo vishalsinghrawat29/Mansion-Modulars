@@ -1,6 +1,6 @@
-import React from 'react'
-import SectionHeader from '../../../Components/SectionHeader'
-import './ServicesSection.style.css'
+import React from 'react';
+import SectionHeader from '../../../Components/SectionHeader';
+import './ServicesSection.style.css';
 
 const ServiceCard = ({ imageUrl, alt, title, text }) => (
   <div className='home-service-card'>
@@ -15,7 +15,7 @@ const ServiceCard = ({ imageUrl, alt, title, text }) => (
       <p className='home-service-text'>{text}</p>
     </div>
   </div>
-)
+);
 
 const ServicesSection = () => {
   const services = [
@@ -40,7 +40,7 @@ const ServicesSection = () => {
       title: 'Design <br /> Consultation',
       text: 'Expert guidance to craft personalized design plans, balancing style, functionality, and your vision.',
     },
-  ]
+  ];
 
   return (
     <section className='home-services'>
@@ -55,7 +55,7 @@ const ServicesSection = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesSection
+export default ServicesSection;

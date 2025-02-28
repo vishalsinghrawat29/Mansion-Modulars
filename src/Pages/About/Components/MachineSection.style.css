@@ -1,0 +1,64 @@
+.machine-section {
+  padding: 2.131% 0;
+}
+.machine-card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1.137%;
+  gap: 64px;
+}
+.machine-card {
+  flex-basis: calc(50% - 32px);
+}
+.machine-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.machine-card-content {
+  padding-bottom: 1.191%;
+}
+
+@media (max-width: 1200px) {
+  .machine-card-container {
+    gap: 40px;
+  }
+  .machine-card {
+    flex-basis: calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .machine-section {
+    padding: 20px 0;
+  }
+  .machine-card-container {
+    display: block;
+    padding-top: 8px;
+  }
+  .machine-card-container .machine-card {
+    padding-right: 30px;
+    position: relative;
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    outline: none;
+  }
+  .machine-card-content {
+    bottom: 0;
+    background-color: var(--tertiary-color);
+    color: var(--text-secondary-color);
+    flex-basis: 100%;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  .machine-card-container .slick-list {
+    padding: 0 60px 0 0 !important;
+  }
+  .machine-card-content p {
+    font-size: 0.625rem;
+  }
+}

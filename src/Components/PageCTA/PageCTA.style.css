@@ -1,0 +1,76 @@
+.page-cta {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8.523% 17.046%;
+  position: relative;
+}
+.page-cta .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.334);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.page-cta .content {
+  z-index: 5;
+  color: var(--text-secondary-color);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-cta .content h2 {
+  padding-bottom: 1.099%;
+}
+.page-cta .page-cta-button {
+  color: var(--tertiary-color);
+  background-color: var(--background-color);
+  padding: 1.649% 3.297%;
+  border: 1px solid var(--background-color);
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 3.297%;
+}
+.page-cta .page-cta-button:hover {
+  background-color: transparent;
+  color: var(--text-secondary-color);
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media (max-width:1200px){
+    .page-cta {
+        padding: 5% 20%;
+    }  
+}
+
+@media (max-width:1050px){
+    .page-cta {
+        padding: 8% 12%;
+    }  
+}
+
+@media (max-width:800px){
+    .page-cta {
+        padding: 10%;
+    }  
+}
+
+@media (max-width:768px){
+    .page-cta {
+        padding: 48px 24px;
+    }
+    .page-cta .content{
+      text-align: left;
+      align-items: flex-start;
+    } 
+    .page-cta .content h2{
+      padding-bottom: 8px;
+    }
+    .page-cta .page-cta-button{
+      margin-top: 12px;
+      padding: 8px 16px;
+    } 
+}

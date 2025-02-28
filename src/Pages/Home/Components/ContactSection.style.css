@@ -15,19 +15,15 @@
   display: flex;
   align-items: flex-start;
 }
-
 .home-contact-title {
   padding-bottom: 1.768%;
 }
-
 .home-mobile-icon {
   width: 28px;
 }
-
 .home-contact-header {
   padding-bottom: 3.535%;
 }
-
 .home-contact-info {
   display: flex;
   align-items: center;
@@ -36,19 +32,23 @@
 }
 .home-contact-info a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-basis: 55%;
   padding: 1.768% 0;
 }
-
 .home-contact-info a:nth-of-type(1),
 .home-contact-info a:nth-of-type(2) {
   flex-basis: 50%;
 }
-
 .home-contact-info a p {
   padding-left: 8px;
+}
+.home-contact-info a:last-of-type {
+  align-items: flex-start;
+}
+.home-contact-info a:last-of-type img {
+  margin-top: 4px;
 }
 
 @media (max-width: 1250px) {

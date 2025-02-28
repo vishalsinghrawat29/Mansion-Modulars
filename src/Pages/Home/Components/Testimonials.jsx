@@ -1,27 +1,27 @@
-import React, { useState } from 'react'
-import Slider from 'react-slick'
-import SectionHeader from '../../../Components/SectionHeader'
-import ResponsiveImg from '../../../Components/ResponsiveImg'
-import VideoModal from '../../../Components/VideoModal'
-import { FiPlay } from 'react-icons/fi'
-import { HomePage } from '../../../assets/Data'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import './Testimonials.style.css'
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { FiPlay } from 'react-icons/fi';
+import SectionHeader from '../../../Components/SectionHeader';
+import ResponsiveImg from '../../../Components/ResponsiveImg';
+import VideoModal from '../../../Components/VideoModal';
+import { HomePage } from '../../../assets/Data';
+import './Testimonials.style.css';
 
 const Testimonials = () => {
-  const [modalOpen, setModalOpen] = useState(false)
-  const [videoUrl, setVideoUrl] = useState('')
+  const [modalOpen, setModalOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState('');
 
   const openModal = (url) => {
-    setVideoUrl(url)
-    setModalOpen(true)
-  }
+    setVideoUrl(url);
+    setModalOpen(true);
+  };
 
   const closeModal = () => {
-    setVideoUrl('')
-    setModalOpen(false)
-  }
+    setVideoUrl('');
+    setModalOpen(false);
+  };
 
   const settings = {
     arrows: false,
@@ -34,7 +34,6 @@ const Testimonials = () => {
     autoplay: true,
     centerPadding: '100px',
     autoplaySpeed: 2000,
-    adaptiveHeight: true,
     pauseOnHover: true,
     responsive: [
       { breakpoint: 950, settings: { slidesToShow: 2 } },
@@ -43,7 +42,7 @@ const Testimonials = () => {
         settings: { centerPadding: '30px', slidesToShow: 1 },
       },
     ],
-  }
+  };
 
   return (
     <section className='home-testimonials'>
@@ -74,7 +73,7 @@ const Testimonials = () => {
 
       <VideoModal isOpen={modalOpen} videoUrl={videoUrl} onClose={closeModal} />
     </section>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

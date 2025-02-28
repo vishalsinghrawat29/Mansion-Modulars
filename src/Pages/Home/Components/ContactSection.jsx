@@ -1,37 +1,40 @@
-import React from 'react'
-import { HomePage } from '../../../assets/Data'
-import ResponsiveImg from '../../../Components/ResponsiveImg'
-import './ContactSection.style.css'
+import React from 'react';
+import { HomePage } from '../../../assets/Data';
+import ResponsiveImg from '../../../Components/ResponsiveImg';
+import Call from '../../../assets/contactIcon/Call.svg';
+import Email from '../../../assets/contactIcon/Email.svg';
+import Location from '../../../assets/contactIcon/Location.svg';
+import './ContactSection.style.css';
 
 const ContactSection = () => {
-  const { desktopImage, mobileImage, altText } = HomePage.Contact
+  const { desktopImage, mobileImage, altText } = HomePage.Contact;
 
   const contactDetails = [
     {
-      icon: 'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_60/v1740495582/Location_Icon_wwl9yo.png',
+      icon: Call,
       alt: 'Phone Icon',
       text: '+91-7892069534',
       link: 'tel:+918851935588',
     },
     {
-      icon: 'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_60/v1740495582/Location_Icon_wwl9yo.png',
+      icon: Call,
       alt: 'Phone Icon',
       text: '+91-8073334571',
       link: 'tel:+918073334571',
     },
     {
-      icon: 'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_60/v1740495582/Email_Icon_bldqlw.png',
+      icon: Email,
       alt: 'Email Icon',
       text: 'mansionmodulars2023@gmail.com',
       link: 'https://mail.google.com/mail/?view=cm&fs=1&to=mansionmodulars2023@gmail.com',
     },
     {
-      icon: 'https://res.cloudinary.com/dpghwxqij/image/upload/c_fill,g_auto,w_60/v1740495581/Call_Icon_bioe2f.png',
+      icon: Location,
       alt: 'Location Icon',
       text: '#230, Mylsandra Dinne, Vistra Resorts and Hotels, Basaveshwara Circle, E-city, Bangalore-560068.',
       link: 'https://www.google.com/maps/place/MANSION+MODULARS/@12.845203,77.615199,17z/data=!4m6!3m5!1s0x3bae6b661e4fcf8f:0x5fe8e31d47a4ffab!8m2!3d12.8450252!4d77.6140191!16s%2Fg%2F11krb7_nmt?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D',
     },
-  ]
+  ];
 
   return (
     <section className='home-contact'>
@@ -71,7 +74,7 @@ const ContactSection = () => {
         />
       </figure>
     </section>
-  )
-}
+  );
+};
 
-export default ContactSection
+export default ContactSection;

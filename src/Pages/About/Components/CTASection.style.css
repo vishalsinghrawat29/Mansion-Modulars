@@ -1,0 +1,9 @@
+.page-cta-contianer {
+  padding: 2.131% 0;
+}
+
+@media (max-width: 768px) {
+  .page-cta-contianer {
+    padding: 20px 0;
+  }
+}

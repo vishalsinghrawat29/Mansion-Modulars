@@ -1,0 +1,35 @@
+.about-hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin: 0 0 2.131% 0;
+}
+.about-hero-section .hero-video {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/6;
+  object-fit: cover;
+}
+.about-hero-section .play-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.093);
+}
+.about-hero-section .play-button {
+  font-size: clamp(2.5rem, 6.4vw, 5.625rem);
+  color: var(--text-secondary-color);
+}
+
+@media (max-width: 768px) {
+  .about-hero-section .hero-video {
+    aspect-ratio: 16/9;
+  }
+  .about-hero-section {
+    margin: 0 0 20px 0;
+  }
+}

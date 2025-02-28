@@ -1,10 +1,10 @@
-import React from 'react'
-import ResponsiveImg from '../../../Components/ResponsiveImg'
-import { HomePage } from '../../../assets/Data'
-import './Introduction.style.css'
+import React from 'react';
+import ResponsiveImg from '../../../Components/ResponsiveImg';
+import { HomePage } from '../../../assets/Data';
+import './Introduction.style.css';
 
 const IntroductionSection = () => {
-  const { desktopImage, mobileImage, altText } = HomePage.IntroImage
+  const { desktopImage, mobileImage, altText } = HomePage.IntroImage;
   return (
     <section className='introduction'>
       <div className='introduction-content'>
@@ -21,7 +21,7 @@ const IntroductionSection = () => {
           alt='Introduction Icon'
           className='introduction-icon'
         />
-        <a href='#' className='introduction-cta'>
+        <a href='/about' className='introduction-cta'>
           Discover More
         </a>
       </div>
@@ -33,7 +33,7 @@ const IntroductionSection = () => {
         />
       </figure>
     </section>
-  )
-}
+  );
+};
 
-export default IntroductionSection
+export default IntroductionSection;

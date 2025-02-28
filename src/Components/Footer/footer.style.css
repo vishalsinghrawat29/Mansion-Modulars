@@ -63,6 +63,7 @@
 
 .social-media-icons img {
   width: 75%;
+  max-width: 40px;
 }
 
 .footer-social .footer-copyright {
@@ -100,19 +101,22 @@
   .footer-social {
     flex-basis: 100%;
   }
-  .footer-logo{
+  .footer-logo {
     padding-bottom: 0;
   }
-  .footer-links p{
+  .footer-links p {
     padding: 6px 0;
   }
-  .footer-social p{
-    padding: 12px 0
+  .footer-social p {
+    padding: 12px 0;
   }
-  .social-media-icons a{
+  .social-media-icons a {
     padding-right: 6px;
   }
-  .footer-social .footer-copyright{
+  .social-media-icons img {
+    max-width: 30px;
+  }
+  .footer-social .footer-copyright {
     padding-top: 12px;
   }
 }
