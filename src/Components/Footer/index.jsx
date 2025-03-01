@@ -67,9 +67,9 @@ const Footer = () => {
               imgSrc: Maps,
               alt: 'Maps',
             },
-          ].map(({ href, imgSrc, alt }) => (
+          ].map(({ href, imgSrc, alt }, index) => (
             <a
-              key={href}
+              key={index}
               href={href}
               target='_blank'
               rel='noopener noreferrer'

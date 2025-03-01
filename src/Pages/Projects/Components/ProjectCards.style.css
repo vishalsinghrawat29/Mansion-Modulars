@@ -22,6 +22,8 @@
   display: block;
   width: 100%;
   aspect-ratio: 12/5;
+  object-fit: cover;
+  object-position: 20% 80%;
 }
 .project-description {
   position: absolute;

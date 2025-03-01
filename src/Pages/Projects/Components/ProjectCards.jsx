@@ -39,9 +39,11 @@ const ProjectsCards = () => {
                 <h5>{subtitle}</h5>
               </div>
               <p>{content}</p>
-              <a className='preview-btn' onClick={() => openModal(images)}>
-                Preview
-              </a>
+              {images && images.length > 0 && (
+                <a className='preview-btn' onClick={() => openModal(images)}>
+                  Preview
+                </a>
+              )}
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@
 .about-hero-section .hero-video {
   width: 100%;
   height: 100%;
-  aspect-ratio: 16/6;
+  /* aspect-ratio: 16/6; */
   object-fit: cover;
 }
 .about-hero-section .play-icon {

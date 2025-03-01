@@ -25,7 +25,7 @@ const App = () => {
       />
       <main id='site-main' className='main-content'>
         <AppRoutes />
-        <AutoPopup />
+        {/* <AutoPopup /> */}
       </main>
       <WhatsAppButton />
       <Footer />
