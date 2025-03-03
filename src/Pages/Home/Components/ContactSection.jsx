@@ -26,7 +26,7 @@ const ContactSection = () => {
       icon: Email,
       alt: 'Email Icon',
       text: 'mansionmodulars2023@gmail.com',
-      link: 'https://mail.google.com/mail/?view=cm&fs=1&to=mansionmodulars2023@gmail.com',
+      link: 'mailto:mansionmodulars2023@gmail.com',
     },
     {
       icon: Location,

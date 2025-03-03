@@ -48,12 +48,12 @@ const Footer = () => {
         <div className='social-media-icons'>
           {[
             {
-              href: '#',
+              href: 'https://www.facebook.com/profile.php?id=61572938764926',
               imgSrc: Facebook,
               alt: 'Facebook',
             },
             {
-              href: '#',
+              href: 'https://www.instagram.com/mansionmodulars/',
               imgSrc: Instagram,
               alt: 'Instagram',
             },
